@@ -5,11 +5,17 @@
 
     "permisions": [
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "activeTab"
     ],
 
     "browser_action": {
-        "default_icon": "",
+        "default_icon": "./assets/logo-light.png",
+        "theme_icons": [{
+            "light": "./assets/logo-light.png",
+            "dark": "./assets/logo-dark.png",
+            "size": 32
+        }],
         "default_title": "U-Tils",
         "default_popup": "./public/popup.html"
     }
