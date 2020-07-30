@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "U-Tils",
+    "version": "1.0",
+
+    "permisions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "browser_action": {
+        "default_icon": "",
+        "default_title": "U-Tils",
+        "default_popup": "./public/popup.html"
+    }
+}
